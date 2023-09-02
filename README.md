@@ -4,9 +4,9 @@
 
 Credit: [alegrey91](https://github.com/alegrey91) for the logo! Thanks!
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/89luca89/pakkero)](https://goreportcard.com/report/github.com/89luca89/pakkero)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Narkle/pakkero)](https://goreportcard.com/report/github.com/Narkle/pakkero)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F89luca89%2Fpakkero.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2F89luca89%2Fpakkero?ref=badge_small)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNarkle%2Fpakkero.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FNarkle%2Fpakkero?ref=badge_small)
 
 ## Introduction
 
@@ -39,22 +39,22 @@ Tested with a 24mb binary file (I didn't have a big project handy so I just conc
 If you have a [Go](https://golang.org/) environment ready to go, it's as easy as:
 
 ```bash
-go get github.com/89luca89/pakkero
+go get github.com/Narkle/pakkero
 ```
 
 Once you retrieved you are ready to build:
 
 ```bash
-cd $GOPATH/src/github.com/89luca89/pakkero; make
+cd $GOPATH/src/github.com/Narkle/pakkero; make
 ```
 
 or to test
 
 ```bash
-cd $GOPATH/src/github.com/89luca89/pakkero; make test
+cd $GOPATH/src/github.com/Narkle/pakkero; make test
 ```
 
-The binary file will be in `$GOPATH/src/github.com/89luca89/pakkero/dist`
+The binary file will be in `$GOPATH/src/github.com/Narkle/pakkero/dist`
 
 The following are hard dependencies:
 
@@ -897,4 +897,4 @@ With binaries the approach is safer (only the binary name is in the process, thu
 
 
 ## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F89luca89%2Fpakkero.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F89luca89%2Fpakkero?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNarkle%2Fpakkero.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNarkle%2Fpakkero?ref=badge_large)

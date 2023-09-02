@@ -7,7 +7,7 @@ all:
 		-asmflags="-trimpath=." \
 		-gcflags="-trimpath=$$GOPATH/src/" \
 		-asmflags="-trimpath=$$GOPATH/src/" \
-		-ldflags="-X github.com/89luca89/pakkero/internal/pakkero.LauncherStub=$$(base64 -w0 data/launcher.go) -s" \
+		-ldflags="-X github.com/Narkle/pakkero/internal/pakkero.LauncherStub=$$(base64 -w0 data/launcher.go) -s" \
 		-o dist/pakkero;
 	strip \
 		-sxX \
@@ -36,7 +36,7 @@ clean:
 		-asmflags="-trimpath=." \
 		-gcflags="-trimpath=$$GOPATH/src/" \
 		-asmflags="-trimpath=$$GOPATH/src/" \
-		-ldflags="-X github.com/89luca89/pakkero/internal/pakkero.LauncherStub=$$(base64 -w0 data/launcher.go) -s" \
+		-ldflags="-X github.com/Narkle/pakkero/internal/pakkero.LauncherStub=$$(base64 -w0 data/launcher.go) -s" \
 		-o dist/pakkero;
 	strip \
 		-sxXwSgd \

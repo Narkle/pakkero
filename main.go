@@ -7,7 +7,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/89luca89/pakkero/internal/pakkero"
+	"github.com/Narkle/pakkero/internal/pakkero"
 )
 
 const (

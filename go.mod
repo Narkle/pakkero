@@ -1,4 +1,4 @@
-module github.com/89luca89/pakkero
+module github.com/Narkle/pakkero
 
 go 1.16
 

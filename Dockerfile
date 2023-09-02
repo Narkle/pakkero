@@ -9,9 +9,9 @@ RUN apk add --update-cache upx git make binutils coreutils \
 RUN upx --version
 
 RUN go version
-RUN go get -d -v github.com/89luca89/pakkero
+RUN go get -d -v github.com/Narkle/pakkero
 
-WORKDIR $GOPATH/src/github.com/89luca89/pakkero
+WORKDIR $GOPATH/src/github.com/Narkle/pakkero
 RUN make
 
 RUN ./dist/pakkero -v
