@@ -1,5 +1,5 @@
 all:
-	go build -i \
+	go build \
 		-gcflags="-N" \
 		-gcflags="-nolocalimports" \
 		-gcflags="-pack" \
@@ -28,7 +28,7 @@ all:
 		dist/pakkero;
 clean:
 	rm -rf dist/;
-	go build -i \
+	go build \
 		-gcflags="-N" \
 		-gcflags="-nolocalimports" \
 		-gcflags="-pack" \
